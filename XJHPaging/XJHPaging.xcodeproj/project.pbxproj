@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15BB8C1A1EE13AF9006ADEF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB8C191EE13AF9006ADEF5 /* main.m */; };
+		15BB8C1D1EE13AF9006ADEF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB8C1C1EE13AF9006ADEF5 /* AppDelegate.m */; };
+		15BB8C201EE13AF9006ADEF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB8C1F1EE13AF9006ADEF5 /* ViewController.m */; };
+		15BB8C231EE13AF9006ADEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BB8C211EE13AF9006ADEF5 /* Main.storyboard */; };
+		15BB8C251EE13AF9006ADEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15BB8C241EE13AF9006ADEF5 /* Assets.xcassets */; };
+		15BB8C281EE13AF9006ADEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BB8C261EE13AF9006ADEF5 /* LaunchScreen.storyboard */; };
+		15BB8C331EE13AF9006ADEF5 /* XJHPagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB8C321EE13AF9006ADEF5 /* XJHPagingTests.m */; };
+		15BB8C3E1EE13AF9006ADEF5 /* XJHPagingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB8C3D1EE13AF9006ADEF5 /* XJHPagingUITests.m */; };
+		15BB8C4E1EE13B4D006ADEF5 /* UIScrollView+XJHPaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB8C4D1EE13B4D006ADEF5 /* UIScrollView+XJHPaging.m */; };
+		15BB8C521EE14B31006ADEF5 /* XJHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB8C501EE14B31006ADEF5 /* XJHTableViewCell.m */; };
+		15BB8C531EE14B31006ADEF5 /* XJHTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15BB8C511EE14B31006ADEF5 /* XJHTableViewCell.xib */; };
+		15BB8C571EE1511A006ADEF5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB8C551EE1511A006ADEF5 /* DetailViewController.m */; };
+		15BB8C581EE1511A006ADEF5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15BB8C561EE1511A006ADEF5 /* DetailViewController.xib */; };
+		D53F72F2E7B96D1ECE48533C /* Pods_XJHPaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322F80FAEABF48BEAD5DBEAD /* Pods_XJHPaging.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15BB8C2F1EE13AF9006ADEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15BB8C0D1EE13AF9006ADEF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BB8C141EE13AF9006ADEF5;
+			remoteInfo = XJHPaging;
+		};
+		15BB8C3A1EE13AF9006ADEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15BB8C0D1EE13AF9006ADEF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BB8C141EE13AF9006ADEF5;
+			remoteInfo = XJHPaging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15BB8C151EE13AF9006ADEF5 /* XJHPaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJHPaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BB8C191EE13AF9006ADEF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15BB8C1B1EE13AF9006ADEF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15BB8C1C1EE13AF9006ADEF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15BB8C1E1EE13AF9006ADEF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15BB8C1F1EE13AF9006ADEF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15BB8C221EE13AF9006ADEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15BB8C241EE13AF9006ADEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15BB8C271EE13AF9006ADEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15BB8C291EE13AF9006ADEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BB8C2E1EE13AF9006ADEF5 /* XJHPagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJHPagingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BB8C321EE13AF9006ADEF5 /* XJHPagingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHPagingTests.m; sourceTree = "<group>"; };
+		15BB8C341EE13AF9006ADEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BB8C391EE13AF9006ADEF5 /* XJHPagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJHPagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BB8C3D1EE13AF9006ADEF5 /* XJHPagingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHPagingUITests.m; sourceTree = "<group>"; };
+		15BB8C3F1EE13AF9006ADEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BB8C4C1EE13B4D006ADEF5 /* UIScrollView+XJHPaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+XJHPaging.h"; path = "XJHPaging/UIScrollView+XJHPaging.h"; sourceTree = "<group>"; };
+		15BB8C4D1EE13B4D006ADEF5 /* UIScrollView+XJHPaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+XJHPaging.m"; path = "XJHPaging/UIScrollView+XJHPaging.m"; sourceTree = "<group>"; };
+		15BB8C4F1EE14B31006ADEF5 /* XJHTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJHTableViewCell.h; sourceTree = "<group>"; };
+		15BB8C501EE14B31006ADEF5 /* XJHTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJHTableViewCell.m; sourceTree = "<group>"; };
+		15BB8C511EE14B31006ADEF5 /* XJHTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XJHTableViewCell.xib; sourceTree = "<group>"; };
+		15BB8C541EE1511A006ADEF5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		15BB8C551EE1511A006ADEF5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		15BB8C561EE1511A006ADEF5 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		322F80FAEABF48BEAD5DBEAD /* Pods_XJHPaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJHPaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4104DB1B2D7517CCF9D5B9C3 /* Pods-XJHPaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHPaging.release.xcconfig"; path = "../Pods/Target Support Files/Pods-XJHPaging/Pods-XJHPaging.release.xcconfig"; sourceTree = "<group>"; };
+		A74E9872B2EF7C2E7C54F409 /* Pods-XJHPaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHPaging.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-XJHPaging/Pods-XJHPaging.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15BB8C121EE13AF9006ADEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53F72F2E7B96D1ECE48533C /* Pods_XJHPaging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BB8C2B1EE13AF9006ADEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BB8C361EE13AF9006ADEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15BB8C0C1EE13AF9006ADEF5 = {
+			isa = PBXGroup;
+			children = (
+				15BB8C171EE13AF9006ADEF5 /* XJHPaging */,
+				15BB8C311EE13AF9006ADEF5 /* XJHPagingTests */,
+				15BB8C3C1EE13AF9006ADEF5 /* XJHPagingUITests */,
+				15BB8C161EE13AF9006ADEF5 /* Products */,
+				4F540F331DC5C033123B3539 /* Pods */,
+				558D974CA1BB038B12C812C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15BB8C161EE13AF9006ADEF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15BB8C151EE13AF9006ADEF5 /* XJHPaging.app */,
+				15BB8C2E1EE13AF9006ADEF5 /* XJHPagingTests.xctest */,
+				15BB8C391EE13AF9006ADEF5 /* XJHPagingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15BB8C171EE13AF9006ADEF5 /* XJHPaging */ = {
+			isa = PBXGroup;
+			children = (
+				15BB8C4B1EE13B0E006ADEF5 /* XJHPaging */,
+				15BB8C1B1EE13AF9006ADEF5 /* AppDelegate.h */,
+				15BB8C1C1EE13AF9006ADEF5 /* AppDelegate.m */,
+				15BB8C1E1EE13AF9006ADEF5 /* ViewController.h */,
+				15BB8C1F1EE13AF9006ADEF5 /* ViewController.m */,
+				15BB8C541EE1511A006ADEF5 /* DetailViewController.h */,
+				15BB8C551EE1511A006ADEF5 /* DetailViewController.m */,
+				15BB8C561EE1511A006ADEF5 /* DetailViewController.xib */,
+				15BB8C4F1EE14B31006ADEF5 /* XJHTableViewCell.h */,
+				15BB8C501EE14B31006ADEF5 /* XJHTableViewCell.m */,
+				15BB8C511EE14B31006ADEF5 /* XJHTableViewCell.xib */,
+				15BB8C211EE13AF9006ADEF5 /* Main.storyboard */,
+				15BB8C241EE13AF9006ADEF5 /* Assets.xcassets */,
+				15BB8C261EE13AF9006ADEF5 /* LaunchScreen.storyboard */,
+				15BB8C291EE13AF9006ADEF5 /* Info.plist */,
+				15BB8C181EE13AF9006ADEF5 /* Supporting Files */,
+			);
+			path = XJHPaging;
+			sourceTree = "<group>";
+		};
+		15BB8C181EE13AF9006ADEF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15BB8C191EE13AF9006ADEF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15BB8C311EE13AF9006ADEF5 /* XJHPagingTests */ = {
+			isa = PBXGroup;
+			children = (
+				15BB8C321EE13AF9006ADEF5 /* XJHPagingTests.m */,
+				15BB8C341EE13AF9006ADEF5 /* Info.plist */,
+			);
+			path = XJHPagingTests;
+			sourceTree = "<group>";
+		};
+		15BB8C3C1EE13AF9006ADEF5 /* XJHPagingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15BB8C3D1EE13AF9006ADEF5 /* XJHPagingUITests.m */,
+				15BB8C3F1EE13AF9006ADEF5 /* Info.plist */,
+			);
+			path = XJHPagingUITests;
+			sourceTree = "<group>";
+		};
+		15BB8C4B1EE13B0E006ADEF5 /* XJHPaging */ = {
+			isa = PBXGroup;
+			children = (
+				15BB8C4C1EE13B4D006ADEF5 /* UIScrollView+XJHPaging.h */,
+				15BB8C4D1EE13B4D006ADEF5 /* UIScrollView+XJHPaging.m */,
+			);
+			name = XJHPaging;
+			sourceTree = "<group>";
+		};
+		4F540F331DC5C033123B3539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A74E9872B2EF7C2E7C54F409 /* Pods-XJHPaging.debug.xcconfig */,
+				4104DB1B2D7517CCF9D5B9C3 /* Pods-XJHPaging.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		558D974CA1BB038B12C812C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				322F80FAEABF48BEAD5DBEAD /* Pods_XJHPaging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15BB8C141EE13AF9006ADEF5 /* XJHPaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BB8C421EE13AF9006ADEF5 /* Build configuration list for PBXNativeTarget "XJHPaging" */;
+			buildPhases = (
+				F2484FCC9A57EC88348F77FC /* [CP] Check Pods Manifest.lock */,
+				15BB8C111EE13AF9006ADEF5 /* Sources */,
+				15BB8C121EE13AF9006ADEF5 /* Frameworks */,
+				15BB8C131EE13AF9006ADEF5 /* Resources */,
+				7806DBF2A05A7843478905D4 /* [CP] Embed Pods Frameworks */,
+				4C84487B911414CBFD66DF3E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJHPaging;
+			productName = XJHPaging;
+			productReference = 15BB8C151EE13AF9006ADEF5 /* XJHPaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15BB8C2D1EE13AF9006ADEF5 /* XJHPagingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BB8C451EE13AF9006ADEF5 /* Build configuration list for PBXNativeTarget "XJHPagingTests" */;
+			buildPhases = (
+				15BB8C2A1EE13AF9006ADEF5 /* Sources */,
+				15BB8C2B1EE13AF9006ADEF5 /* Frameworks */,
+				15BB8C2C1EE13AF9006ADEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15BB8C301EE13AF9006ADEF5 /* PBXTargetDependency */,
+			);
+			name = XJHPagingTests;
+			productName = XJHPagingTests;
+			productReference = 15BB8C2E1EE13AF9006ADEF5 /* XJHPagingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15BB8C381EE13AF9006ADEF5 /* XJHPagingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BB8C481EE13AF9006ADEF5 /* Build configuration list for PBXNativeTarget "XJHPagingUITests" */;
+			buildPhases = (
+				15BB8C351EE13AF9006ADEF5 /* Sources */,
+				15BB8C361EE13AF9006ADEF5 /* Frameworks */,
+				15BB8C371EE13AF9006ADEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15BB8C3B1EE13AF9006ADEF5 /* PBXTargetDependency */,
+			);
+			name = XJHPagingUITests;
+			productName = XJHPagingUITests;
+			productReference = 15BB8C391EE13AF9006ADEF5 /* XJHPagingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15BB8C0D1EE13AF9006ADEF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cocoadogs;
+				TargetAttributes = {
+					15BB8C141EE13AF9006ADEF5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4793525Q6T;
+						ProvisioningStyle = Automatic;
+					};
+					15BB8C2D1EE13AF9006ADEF5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4793525Q6T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 15BB8C141EE13AF9006ADEF5;
+					};
+					15BB8C381EE13AF9006ADEF5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4793525Q6T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 15BB8C141EE13AF9006ADEF5;
+					};
+				};
+			};
+			buildConfigurationList = 15BB8C101EE13AF9006ADEF5 /* Build configuration list for PBXProject "XJHPaging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15BB8C0C1EE13AF9006ADEF5;
+			productRefGroup = 15BB8C161EE13AF9006ADEF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15BB8C141EE13AF9006ADEF5 /* XJHPaging */,
+				15BB8C2D1EE13AF9006ADEF5 /* XJHPagingTests */,
+				15BB8C381EE13AF9006ADEF5 /* XJHPagingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15BB8C131EE13AF9006ADEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BB8C281EE13AF9006ADEF5 /* LaunchScreen.storyboard in Resources */,
+				15BB8C251EE13AF9006ADEF5 /* Assets.xcassets in Resources */,
+				15BB8C581EE1511A006ADEF5 /* DetailViewController.xib in Resources */,
+				15BB8C531EE14B31006ADEF5 /* XJHTableViewCell.xib in Resources */,
+				15BB8C231EE13AF9006ADEF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BB8C2C1EE13AF9006ADEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BB8C371EE13AF9006ADEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C84487B911414CBFD66DF3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-XJHPaging/Pods-XJHPaging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7806DBF2A05A7843478905D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-XJHPaging/Pods-XJHPaging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2484FCC9A57EC88348F77FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15BB8C111EE13AF9006ADEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BB8C201EE13AF9006ADEF5 /* ViewController.m in Sources */,
+				15BB8C1D1EE13AF9006ADEF5 /* AppDelegate.m in Sources */,
+				15BB8C4E1EE13B4D006ADEF5 /* UIScrollView+XJHPaging.m in Sources */,
+				15BB8C1A1EE13AF9006ADEF5 /* main.m in Sources */,
+				15BB8C521EE14B31006ADEF5 /* XJHTableViewCell.m in Sources */,
+				15BB8C571EE1511A006ADEF5 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BB8C2A1EE13AF9006ADEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BB8C331EE13AF9006ADEF5 /* XJHPagingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BB8C351EE13AF9006ADEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BB8C3E1EE13AF9006ADEF5 /* XJHPagingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15BB8C301EE13AF9006ADEF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15BB8C141EE13AF9006ADEF5 /* XJHPaging */;
+			targetProxy = 15BB8C2F1EE13AF9006ADEF5 /* PBXContainerItemProxy */;
+		};
+		15BB8C3B1EE13AF9006ADEF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15BB8C141EE13AF9006ADEF5 /* XJHPaging */;
+			targetProxy = 15BB8C3A1EE13AF9006ADEF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15BB8C211EE13AF9006ADEF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15BB8C221EE13AF9006ADEF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15BB8C261EE13AF9006ADEF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15BB8C271EE13AF9006ADEF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15BB8C401EE13AF9006ADEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15BB8C411EE13AF9006ADEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15BB8C431EE13AF9006ADEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74E9872B2EF7C2E7C54F409 /* Pods-XJHPaging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4793525Q6T;
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
+				INFOPLIST_FILE = XJHPaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.XJHPaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15BB8C441EE13AF9006ADEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4104DB1B2D7517CCF9D5B9C3 /* Pods-XJHPaging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4793525Q6T;
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
+				INFOPLIST_FILE = XJHPaging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.XJHPaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15BB8C461EE13AF9006ADEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4793525Q6T;
+				INFOPLIST_FILE = XJHPagingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.XJHPagingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJHPaging.app/XJHPaging";
+			};
+			name = Debug;
+		};
+		15BB8C471EE13AF9006ADEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4793525Q6T;
+				INFOPLIST_FILE = XJHPagingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.XJHPagingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJHPaging.app/XJHPaging";
+			};
+			name = Release;
+		};
+		15BB8C491EE13AF9006ADEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4793525Q6T;
+				INFOPLIST_FILE = XJHPagingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.XJHPagingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XJHPaging;
+			};
+			name = Debug;
+		};
+		15BB8C4A1EE13AF9006ADEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4793525Q6T;
+				INFOPLIST_FILE = XJHPagingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoadogs.XJHPagingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XJHPaging;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15BB8C101EE13AF9006ADEF5 /* Build configuration list for PBXProject "XJHPaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BB8C401EE13AF9006ADEF5 /* Debug */,
+				15BB8C411EE13AF9006ADEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BB8C421EE13AF9006ADEF5 /* Build configuration list for PBXNativeTarget "XJHPaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BB8C431EE13AF9006ADEF5 /* Debug */,
+				15BB8C441EE13AF9006ADEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BB8C451EE13AF9006ADEF5 /* Build configuration list for PBXNativeTarget "XJHPagingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BB8C461EE13AF9006ADEF5 /* Debug */,
+				15BB8C471EE13AF9006ADEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BB8C481EE13AF9006ADEF5 /* Build configuration list for PBXNativeTarget "XJHPagingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BB8C491EE13AF9006ADEF5 /* Debug */,
+				15BB8C4A1EE13AF9006ADEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15BB8C0D1EE13AF9006ADEF5 /* Project object */;
+}
