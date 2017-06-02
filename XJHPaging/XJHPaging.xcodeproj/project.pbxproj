@@ -20,6 +20,7 @@
 		15BB8C531EE14B31006ADEF5 /* XJHTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15BB8C511EE14B31006ADEF5 /* XJHTableViewCell.xib */; };
 		15BB8C571EE1511A006ADEF5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB8C551EE1511A006ADEF5 /* DetailViewController.m */; };
 		15BB8C581EE1511A006ADEF5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15BB8C561EE1511A006ADEF5 /* DetailViewController.xib */; };
+		15BB8C5A1EE17161006ADEF5 /* rr.gif in Resources */ = {isa = PBXBuildFile; fileRef = 15BB8C591EE17161006ADEF5 /* rr.gif */; };
 		D53F72F2E7B96D1ECE48533C /* Pods_XJHPaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322F80FAEABF48BEAD5DBEAD /* Pods_XJHPaging.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		15BB8C541EE1511A006ADEF5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		15BB8C551EE1511A006ADEF5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		15BB8C561EE1511A006ADEF5 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		15BB8C591EE17161006ADEF5 /* rr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = rr.gif; path = ../../rr.gif; sourceTree = "<group>"; };
 		322F80FAEABF48BEAD5DBEAD /* Pods_XJHPaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJHPaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4104DB1B2D7517CCF9D5B9C3 /* Pods-XJHPaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHPaging.release.xcconfig"; path = "../Pods/Target Support Files/Pods-XJHPaging/Pods-XJHPaging.release.xcconfig"; sourceTree = "<group>"; };
 		A74E9872B2EF7C2E7C54F409 /* Pods-XJHPaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHPaging.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-XJHPaging/Pods-XJHPaging.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		15BB8C171EE13AF9006ADEF5 /* XJHPaging */ = {
 			isa = PBXGroup;
 			children = (
+				15BB8C591EE17161006ADEF5 /* rr.gif */,
 				15BB8C4B1EE13B0E006ADEF5 /* XJHPaging */,
 				15BB8C1B1EE13AF9006ADEF5 /* AppDelegate.h */,
 				15BB8C1C1EE13AF9006ADEF5 /* AppDelegate.m */,
@@ -305,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BB8C5A1EE17161006ADEF5 /* rr.gif in Resources */,
 				15BB8C281EE13AF9006ADEF5 /* LaunchScreen.storyboard in Resources */,
 				15BB8C251EE13AF9006ADEF5 /* Assets.xcassets in Resources */,
 				15BB8C581EE1511A006ADEF5 /* DetailViewController.xib in Resources */,
